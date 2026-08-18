@@ -1,0 +1,16 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clay Richardson favicon — simplified for 16-32px rendering -->
+  <rect width="200" height="200" rx="36" fill="#1C2B3A"/>
+
+  <line x1="100" y1="100" x2="150" y2="150" stroke="#9C7A3C" stroke-width="7"/>
+  <line x1="100" y1="100" x2="50"  y2="150" stroke="#9C7A3C" stroke-width="7"/>
+  <line x1="100" y1="100" x2="50"  y2="50"  stroke="#9C7A3C" stroke-width="7"/>
+  <line x1="100" y1="100" x2="150" y2="50"  stroke="#9C7A3C" stroke-width="7"/>
+
+  <circle cx="150" cy="150" r="14" fill="#1C2B3A" stroke="#9C7A3C" stroke-width="7"/>
+  <circle cx="50"  cy="150" r="14" fill="#1C2B3A" stroke="#9C7A3C" stroke-width="7"/>
+  <circle cx="50"  cy="50"  r="14" fill="#1C2B3A" stroke="#9C7A3C" stroke-width="7"/>
+  <circle cx="150" cy="50"  r="14" fill="#1C2B3A" stroke="#9C7A3C" stroke-width="7"/>
+
+  <circle cx="100" cy="100" r="22" fill="#EFEAE0"/>
+</svg>

@@ -245,7 +245,8 @@ img {
   text-align: center;
 }
 
-.work-tile .btn-link {
+.work-tile .btn-link,
+.work-tile .btn-primary {
   margin-top: auto;
 }
 
@@ -273,7 +274,6 @@ img {
 
 .work-media {
   background: #ece4d4;
-  border: 1px solid var(--color-border);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -296,6 +296,29 @@ img {
 
 .btn-link:hover {
   opacity: 0.7;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #1c2b3a;
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 32px;
+  border-radius: 6px;
+  border: 1px solid #1c2b3a;
+  text-decoration: none;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background: #0f1c27;
+}
+
+.btn-primary:active {
+  transform: translateY(1px);
 }
 
 /* Placeholder banner (dev-only, remove once real content/images are swapped in) */
